@@ -1,2 +1,0 @@
-# yet_distill
-academicpage

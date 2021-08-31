@@ -1,0 +1,21 @@
+---
+title: "Building a {distill} academic webpage"
+description: |
+  How I build this site using {distill}
+author:
+  - name: Yunus Emre Tapan
+date: 09-01-2021
+preview: featured.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Here is where I will talk about building this website
+
+
