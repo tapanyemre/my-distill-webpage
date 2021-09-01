@@ -1,6 +1,8 @@
 ---
-title: "trainings"
-output: html_document
+title: "Method Schools"
+site: distill::distill_website
+output:
+  postcards::solana
 ---
 
 ## Method Schools

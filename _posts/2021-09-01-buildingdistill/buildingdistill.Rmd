@@ -4,11 +4,15 @@ description: |
   How I build this site using {distill}
 author:
   - name: Yunus Emre Tapan
+    affliation: Northeastern University
 date: 09-01-2021
+categories:
+  - computational social science
 preview: featured.jpg
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
 ---
 
 

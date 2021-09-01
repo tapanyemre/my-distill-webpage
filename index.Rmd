@@ -16,7 +16,7 @@ twitter:
   creator: "@YEmreTapan"
   site: "@YEmreTapan"
 output:
-  postcards::trestles
+    postcards::trestles
 ---
 
 

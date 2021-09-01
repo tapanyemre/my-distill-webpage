@@ -3,7 +3,7 @@
   <channel>
     <title>YET</title>
     <link>https://yemretapan.netlify.app/</link>
-    <atom:link href="https://yemretapan.netlify.app/Blog.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://yemretapan.netlify.app/posts.xml" rel="self" type="application/rss+xml"/>
     <description>Yunus Emre Tapan
 </description>
     <generator>Distill</generator>

@@ -1,4 +1,4 @@
-name: "YET"
+name: "Yunus Emre Tapan"
 title: "YET"
 base_url: https://yemretapan.netlify.app/
 description: |
@@ -24,8 +24,8 @@ navbar:
       href: awards.html
     - text: "Talks"
       href: talks.html
-    - text: "Blog"
-      href: blog.html
+    - text: "Posts"
+      href: posts.html
 output: distill::distill_article
 theme: "Files/lisa_theme.css"
 collections:

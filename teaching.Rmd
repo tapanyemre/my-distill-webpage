@@ -1,6 +1,8 @@
 ---
 title: "Teaching Experience"
-output: html_document
+site: distill::distill_website
+output:
+  postcards::solana
 ---
 Computational Thinking, Fall 2020 An Undergraduate Course at Kadir Has University
 
