@@ -1,19 +1,25 @@
 {
   "articles": [
     {
-      "path": "blog.html",
-      "title": "blog",
+      "path": "Articles.html",
+      "title": "Articles",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-09-01T02:19:36+03:00"
+      "last_modified": "2021-09-01T19:20:01+03:00"
+    },
+    {
+      "path": "Blog.html",
+      "title": "Blog",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-09-01T19:20:01+03:00"
     },
     {
       "path": "index.html",
       "title": "Yunus Emre Tapan",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
-      "contents": "\n\nAbout me:\nEducation:\n\n\n\n",
-      "last_modified": "2021-09-01T02:19:37+03:00"
+      "contents": "\n\n          \n          \n          \n          \n          Academic Webpage\n          \n          \n          About\n          Blog\n          Articles\n          \n          \n          \n          \n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Yunus Emre Tapan\n          \n          \n            \n              Hi! 👋 I am a PhD student in Political Science at Northeastern University. I am using computational text analysis and network analysis methods to study online extremism and polarization.\n            \n            \n              Hi! 👋 I am a PhD student in Political Science at Northeastern University. I am using computational text analysis and network analysis methods to study online extremism and polarization.\n            \n          \n\n          \n            \n              \n                  \n                    \n                       Twitter\n                    \n                  \n                \n                                \n                  \n                    \n                       GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                       LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                       Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                     Twitter\n                  \n                \n                                \n                  \n                     GitHub\n                  \n                \n                                \n                  \n                     LinkedIn\n                  \n                \n                                \n                  \n                     Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-09-01T19:20:01+03:00"
     }
   ],
   "collections": ["posts/posts.json"]

@@ -1,8 +1,22 @@
 ---
 title: "Yunus Emre Tapan"
-description: |
-  Welcome to the website. I hope you enjoy it!
+image: "yet.jpg"
 site: distill::distill_website
+links:
+  - label: '<i class="fab fa-twitter"></i> Twitter'
+    url: "https://twitter.com/YEmreTapan"
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: "https://github.com/tapanyemre"
+  - label: '<i class="fab fa-linkedin"></i> LinkedIn'
+    url: "https://www.linkedin.com/in/yunus-emre-tapan-39a93648/"
+  - label: '<i class="fas fa-envelope"></i> Email'
+    url: "mailto:tapan.y@northeastern.edu"
+preview: yet.jpg
+twitter:
+  creator: "@YEmreTapan"
+  site: "@YEmreTapan"
+output:
+  postcards::jolla
 ---
 
 ```{r setup, include=FALSE}
@@ -13,11 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-![](kilyos.jpeg){width=300} 
 
-## About me:
-
-
-## Education:
+Hi! <span class="wave">👋</span> I am a PhD student in Political Science at Northeastern University. I am using computational text analysis and network analysis methods to study online extremism and polarization.
 
 
