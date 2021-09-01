@@ -7,12 +7,26 @@ navbar:
   logo:
     image: nu_logo.png
   right:
-    - text: "About"
+    - text: "Home"
       href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Trainings"
+      href: trainings.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Leadership"
+      href: leadership.html
+    - text: "Research"
+      href: projects.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Awards"
+      href: awards.html
+    - text: "Talks"
+      href: talks.html
     - text: "Blog"
       href: blog.html
-    - text: "Articles"
-      href: Articles.html
     - icon: fa fa-github
       href: https://github.com/tapanyemre
     - icon: fa fa-linkedin
