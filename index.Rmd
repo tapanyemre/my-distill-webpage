@@ -1,6 +1,6 @@
 ---
 title: "Yunus Emre Tapan"
-image: "yet.jpg"
+image: "Images/yet.jpg"
 site: distill::distill_website
 links:
   - label: '<i class="fab fa-twitter"></i> Twitter'
@@ -19,15 +19,95 @@ output:
   postcards::jolla
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
+<style>
+d-title, d-byline {
+  display: none
+}
+</style>
 
+
+```{css, echo = FALSE}
+.columnname {
+  font-size: 1.4rem; 
+  font-weight: 600
+}
+.grad-item {
+  list-style: none; 
+  background-image: url(images/cap.png); 
+  background-repeat: no-repeat;  
+  background-size: 1.2rem; 
+  padding-left: 2rem;
+}
+.grad-location {
+  font-size: 1.1rem;
+  color: #0D7680;
+}
 ```
 
 
-Hi! <span class="wave">👋</span> I am a PhD student in Political Science at Northeastern University. I am using computational text analysis and network analysis methods to study online extremism and polarization.
+
+Hi! I am a PhD student in Political Science at Northeastern University. I am using computational text analysis and network analysis methods to study online extremism and polarization.
+
+  
 
 
+:::: {style="display: grid; grid-template-columns: 40% 50%; grid-column-gap: 30px; line-height: 1.5rem;"}
+
+::: {}
+<span class = "columnname"> Interests </span>
+
+* International Relations
+
+* Comparative Politics
+
+* Computational Social Science
+:::
+
+
+::: {}
+<span class = "columnname"> Education </span>
+
+<ul>
+ 
+<li class = "grad-item">   PhD in Political Science, 2021 - Present <br> <p class = "grad-location"> Northeastern University </p> </li>
+<br>
+<li class = "grad-item">   MSc in Middle East Studies, 2019 <br>
+<p class = "grad-location"> Middle East Technical University </p> </li>
+<br>
+<li class = "grad-item">   BA in Economics, 2016 <br> <p class = "grad-location"> Bogazici University </p> 
+</li>
+
+</ul>
+:::
+
+
+::::
+
+---
+
+```{r echo=FALSE}
+library(fontawesome)
+```
+
+<center>
+<main style="font-size:15px"> &copy; Yunus Emre Tapan, `r format(Sys.time(), '%Y')`. Created with `r fa("r-project", fill = "#0D7680")` Distill Package. </main>
+</center>
+
+
+
+```{r, include=FALSE, results='asis'}
+library(metathis)
+meta() %>%
+  meta_social(
+    title = "MC",
+    description = "Personal academic website of Yunus Emre Tapan",
+    url = "https://yemretapan.netlify.app/",
+    image = "https://github.com/tapanyemre/yet_distill/blob/main/Images/yet.jpg",
+    image_alt = "",
+    og_type = "website",
+    og_author = "Yunus Emre Tapan",
+    twitter_card_type = "summary",
+    twitter_creator = "@YEmreTapan"
+  )
+```
