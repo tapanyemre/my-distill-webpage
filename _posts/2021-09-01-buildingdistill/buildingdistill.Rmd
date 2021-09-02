@@ -7,6 +7,7 @@ author:
     affiliation: Northeastern University
 categories:
   - computational social science
+  - political methodology
 date: 09-01-2021
 preview: featured.jpg
 output:
