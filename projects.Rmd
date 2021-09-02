@@ -1,4 +1,0 @@
----
-title: "Research Experience and Projects"
-output: html_document
----

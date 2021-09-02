@@ -1,4 +1,0 @@
----
-title: "Talks"
-output: html_document
----

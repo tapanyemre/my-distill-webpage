@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-
-
-
-
-<title>Publications</title>
+Research
+================
 
 <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content=""/>
@@ -621,14 +609,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 <!--/radix_placeholder_navigation_in_header-->
+
 <!--radix_placeholder_site_in_header-->
 <!--/radix_placeholder_site_in_header-->
+
 
 <style type="text/css">
 body {
   padding-top: 60px;
 }
 </style>
+
 <style type="text/css">
 /* base variables */
 
@@ -709,83 +700,125 @@ d-appendix {
 </style>
 <style type="text/css">
 /* base variables */
-
-/* Edit the CSS properties in this file to create a custom
-   Distill theme. Only edit values in the right column
-   for each row; values shown are the CSS defaults.
-   To return any property to the default,
-   you may set its value to: unset
-   All rows must end with a semi-colon.                      */
-
-/* Optional: embed custom fonts here with `@import`          */
-/* This must remain at the top of this file.                 */
-
+  
+  /* Edit the CSS properties in this file to create a custom
+Distill theme. Only edit values in the right column
+for each row; values shown are the CSS defaults.
+To return any property to the default,
+you may set its value to: unset
+All rows must end with a semi-colon.                      */
+  
+  
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+  @import url('https://fonts.googleapis.com/css2?family=Amiri');
+@import url('https://fonts.googleapis.com/css2?family=Bitter');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 
 html {
   /*-- Main font sizes --*/
-  --title-size:      50px;
+    --title-size:      50px;
   --body-size:       1.06rem;
   --code-size:       14px;
   --aside-size:      12px;
   --fig-cap-size:    13px;
   background-color: #E0EBEE;
-  /*-- Main font colors --*/
-  --title-color:     #881C03;
-  --header-color:    rgba(0, 0, 0, 0.8);
+    /*-- Main font colors --*/
+    --title-color:     #881C03;
+    --header-color:    rgba(0, 0, 0, 0.8);
   --body-color:      rgba(0, 0, 0, 0.8);
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    sans-serif;
-  --mono-font:       monospace;
-  --body-font:       sans-serif;
-  --navbar-font:     sans-serif;  /* websites + blogs only */
+    --heading-font:    "Amiri", serif;
+  --mono-font:       "DM Mono", monospace;
+  --body-font:       "Bitter", serif;
+  --navbar-font:     "Amiri", sans-serif;  /* websites + blogs only */
 }
 
 /*-- ARTICLE METADATA --*/
-d-byline {
-  --heading-size:    0.6rem;
-  --heading-color:   rgba(0, 0, 0, 0.5);
-  --body-size:       0.8rem;
-  --body-color:      rgba(0, 0, 0, 0.8);
-}
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
 
 /*-- ARTICLE TABLE OF CONTENTS --*/
-.d-contents {
-  --heading-size:    18px;
-  --contents-size:   13px;
-}
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   14px;
+  }
 
 /*-- ARTICLE APPENDIX --*/
-d-appendix {
-  --heading-size:    15px;
-  --heading-color:   rgba(0, 0, 0, 0.65);
-  --text-size:       0.8em;
-  --text-color:      rgba(0, 0, 0, 0.5);
-}
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
 
 /*-- WEBSITE HEADER + FOOTER --*/
-/* These properties only apply to Distill sites and blogs  */
-
-.distill-site-header {
-  --title-size:       18px;
-  --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #045F77;
-}
+  /* These properties only apply to Distill sites and blogs  */
+  
+  .distill-site-header {
+    --title-size:       20px;                      /* edited */
+      --text-color:       #FFFFFF;                   /* edited */
+      --text-size:        20px;                      /* edited */
+      --hover-color:      #383838;                   /* edited */
+      --bkgd-color:       rgb(249, 83, 85);          /* edited */
+  }
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #045F77;
+  --bkgd-color:       #0F2E3D;
 }
 
 /*-- Additional custom styles --*/
-/* Add any additional CSS rules below                      */
-</style>
+  /* Add any additional CSS rules below                      */
+  
+  .posts-list .metadata .publishedDate {
+    color: rgb(249, 83, 85);
+  }
+
+d-article p code {
+  color: #383838;
+    background: rgba(249, 83, 85, 0.1);
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+d-article a {
+  border-bottom: 2px solid rgba(249, 83, 85, 0.4);
+  text-decoration: none;
+}
+
+.distill-site-header .title {
+  font-weight: 600; 
+}
+
+ul > li::marker {
+  color: rgb(249, 83, 85);
+}
+
+/*-- Change links on postcard --*/
+  
+  .btn-outline-dark {
+    background-color: transparent;
+    color: rgba(249, 83, 85, 1.0);
+    border: 1px solid;
+    border-color: rgba(249, 83, 85, 1.0);
+  }
+
+.btn-outline-dark:hover {
+  background-color: rgba(249, 83, 85, 1.0);
+  border-color: rgba(249, 83, 85, 1.0);
+  color: white;
+}</style>
 <style type="text/css">
 /* base style */
 
@@ -940,220 +973,6 @@ d-appendix d-footnote-list a.footnote-backlink {
 .distill-site-footer a:hover {
   color: var(--hover-color, white);
 }</style>
-<script src="/Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library/rmarkdown/rmd/h/pandoc/header-attrs.js"></script>
-<script src="/Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library/rmarkdown/rmd/h/jquery/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="/Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library/rmarkdown/rmd/h/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-<script src="/Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library/rmarkdown/rmd/h/bootstrap/js/bootstrap.min.js"></script>
-<script src="/Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library/rmarkdown/rmd/h/bootstrap/shim/html5shiv.min.js"></script>
-<script src="/Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library/rmarkdown/rmd/h/bootstrap/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
-<script src="/Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library/rmarkdown/rmd/h/navigation-1.1/tabsets.js"></script>
-<link href="/Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library/rmarkdown/rmd/h/highlightjs/default.css" rel="stylesheet" />
-<script src="/Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library/rmarkdown/rmd/h/highlightjs/highlight.js"></script>
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
-
-
-
-
-
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-pre code {
-  padding: 0;
-}
-</style>
-
-
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
-
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
-
-
 
 <!--radix_placeholder_navigation_before_body-->
 <header class="header header--fixed" role="banner">
@@ -1162,35 +981,13 @@ $(document).ready(function () {
 <a class="logo">
 <img src="Images/nu_logo.png" alt="Logo"/>
 </a>
-<a href="index.html" class="title">YET</a>
+<a href="index.html" class="title">Yunus Emre Tapan</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
-<a href="teaching.html">Teaching</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Research
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="projects.html">Projects</a>
-<a href="publications.html">Publications</a>
-<a href="talks.html">Talks</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Leadership
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="sicss-istanbul.html">SICSS-Istanbul</a>
-<a href="twitter.html">Istanbul Twitter Developer Community</a>
-</div>
-</div>
+<a href="research.html">Research</a>
+<a href="leadership.html">Leadership</a>
 <a href="awards.html">Awards</a>
 <a href="posts.html">Posts</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
@@ -1198,133 +995,14 @@ Leadership
 </nav>
 </header>
 <!--/radix_placeholder_navigation_before_body-->
+
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"></a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="teaching.html">Teaching</a>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Research
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="projects.html">Projects</a>
-    </li>
-    <li>
-      <a href="publications.html">Publications</a>
-    </li>
-    <li>
-      <a href="talks.html">Talks</a>
-    </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Leadership
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="sicss-istanbul.html">SICSS-Istanbul</a>
-    </li>
-    <li>
-      <a href="twitter.html">Istanbul Twitter Developer Community</a>
-    </li>
-  </ul>
-</li>
-<li>
-  <a href="awards.html">Awards</a>
-</li>
-<li>
-  <a href="posts.html">Posts</a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
-<div id="header">
-
-
-
-<h1 class="title toc-ignore">Publications</h1>
-
-</div>
-
 
 
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
+
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->
-
-
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
-  });
-});
-</script>
-
-<!-- code folding -->
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
-</body>
-</html>
