@@ -20,104 +20,61 @@ output:
 ---
 
 
-<style>
-d-title, d-byline {
-  display: none
-}
-</style>
-
-
-```{css, echo = FALSE}
-.columnname {
-  font-size: 1.4rem; 
-  font-weight: 600
-}
-.grad-item {
-  list-style: none; 
-  background-image: url(Images/cap.png); 
-  background-repeat: no-repeat;  
-  background-size: 1.2rem; 
-  padding-left: 2rem;
-}
-.grad-location {
-  font-size: 1.1rem;
-  color: #0D7680;
-}
-```
-
+## Short Bio
 
 I am a PhD Student in Political Science at Northeastern University. I earned my B.A. in Economics from Bogazici University and my M.Sc. in Middle East Studies from METU. My research sits at the intersection of data science and social sciences. I specialize in social network analysis and computational text analysis to study online polarization, online extremism and non-state actors with a particular focus on how they radicalize.
 
 I am a graduate of SICSS-Helsinki in 2018 and ICPSR Summer Program in 2020 as one of the recipients of the Scholarship for Political Science Research. I am co-organizer of Summer Institute in Computational Social Science in Istanbul. I am also the lead of Istanbul Twitter Develeoper Community.
   
 
+## Education 
 
-:::: {style="display: grid; grid-template-columns: 40% 50%; grid-column-gap: 30px; line-height: 1.5rem;"}
+- PhD in Political Science, 2021 - Present 
+  
+  **Northeastern University**
 
-::: {}
-<span class = "columnname"> Interests </span>
+- MSc in Middle East Studies, 2019 
+  
+  **Middle East Technical University**
 
-* International Relations
+- BA in Economics, 2016 
 
-* Comparative Politics
-
-* Computational Social Science
-:::
-
-
-::: {}
-<span class = "columnname"> Education </span>
-
-<ul>
- 
-<li class = "grad-item">   PhD in Political Science, 2021 - Present <br> <p class = "grad-location"> Northeastern University </p> </li>
-<br>
-<li class = "grad-item">   MSc in Middle East Studies, 2019 <br>
-<p class = "grad-location"> Middle East Technical University </p> </li>
-<br>
-<li class = "grad-item">   BA in Economics, 2016 <br> <p class = "grad-location"> Bogazici University </p> 
-</li>
-
-</ul>
-:::
-
-
-::::
+  **Bogazici University** 
 
 ## Teaching Experience
 
-* Computational Thinking, Fall 2020 An Undergraduate Course at Kadir Has University
+* Computational Thinking | Fall 2020 
+  
+  An Undergraduate Course at Kadir Has University
 
-* Summer Institute in Computational Social Science (SICSS), Istanbul Partner event of the SICSS at Princeton University, June 17-30 2019
-
-* Summer Institute in Computational Social Science (SICSS), Istanbul Partner virtual event of the SICSS at Duke University, May 31- June 27 2020
+* Summer Institute in Computational Social Science (SICSS) | Istanbul
+  
+  - June 2019 
+  
+  - June 2020
+  
 
 ## Method Schools
 
-### [Oxford Spring School in Advanced Research Methods](https://www.politics.ox.ac.uk/spring-school/oxford-spring-school-in-advanced-research-methods.html)
+- [Oxford Spring School in Advanced Research Methods](https://www.politics.ox.ac.uk/spring-school/oxford-spring-school-in-advanced-research-methods.html)
+    
+    **Machine Learning** | April 2021 
 
-Machine Learning 
 
-date_start: ‘2021-04-19’ date_end: ‘2021-04-23’ 
 
-description: 
-‘Computational techniques broadly referred to as “machine learning” (ML) are attracting increasing attention in the social sciences. This course will introduce students to the fundamental theories and concepts used across ML techniques (e.g maximum likelihood estimation, classification, overfitting, and cross-validation), and how to apply various popular ML techniques (e.g. LASSO, random forests, bayesian additive regression trees, and neural networks). This course will also pay particular attention to inferential problems regarding how best to use ML methods in social science contexts and discuss practical issues (e.g. computational power and parallelisation). Students on this course are required to be familiar with probability and statistics (OLS, hypothesis testing, logistic regression) and to have basic knowledge of the R programming language.’
+- [Inter-university Consortium for Political and Social Research (ICPSR)](https://www.icpsr.umich.edu/web/pages/sumprog/scholarships/winners-2020.html) 
+    
+     **Advanced Network Analysis**  | July - August 2020
+    
+     **Data Science and Text Analysis** | July - August 2020
 
-### [Inter-university Consortium for Political and Social Research (ICPSR)](https://www.icpsr.umich.edu/web/pages/sumprog/scholarships/winners-2020.html) 
 
-Advanced Network Analysis, and Data Science and Text Analysis  
 
-date_start: ‘2020-07-14’ date_end: ‘2020-08-20’ description: ‘
+- [Summer Institute in Computational Social Science (SICSS-Helsinki)](https://sicss.io/2018/helsinki/) 
+    
+     **Computational Social Science** | June 2018
 
-The ICPSR Summer Program provides rigorous, hands-on training in statistical techniques, research methodologies, and data analysis.’
 
-### [Summer Institute in Computational Social Science (SICSS-Helsinki)](https://sicss.io/2018/helsinki/) 
-
-Computational Social Science 
-
-date_start: ‘2018-06-17’ date_end: ‘2018-06-30’ 
-
-description: ‘The purpose of the Summer Institute is to bring together graduate students, postdoctoral researchers, and beginning faculty interested in computational social science. The Summer Institute is for both social scientists (broadly conceived) and data scientists (broadly conceived). Topics covered include text as data, website scraping, digital field experiments, non-probability sampling, mass collaboration, and ethics.’
 
 ---
 
