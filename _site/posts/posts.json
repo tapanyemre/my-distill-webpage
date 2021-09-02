@@ -10,10 +10,13 @@
       }
     ],
     "date": "2021-09-01",
-    "categories": [],
+    "categories": [
+      "computational social science",
+      "political methodology"
+    ],
     "contents": "\nHere is where I will talk about building this website\n\n\n\n",
     "preview": "posts/2021-09-01-buildingdistill/featured.jpg",
-    "last_modified": "2021-09-01T02:06:51+03:00",
+    "last_modified": "2021-09-02T10:30:15+03:00",
     "input_file": {}
   }
 ]

@@ -17,10 +17,6 @@ output:
 ---
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 Here is where I will talk about building this website
 
 

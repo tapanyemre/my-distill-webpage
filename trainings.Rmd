@@ -1,6 +1,8 @@
 ---
 title: "Method Schools"
-site: distill::distill_website
+twitter:
+  creator: "@YEmreTapan"
+listing: trainings
 output:
   postcards::solana
 ---
@@ -12,3 +14,8 @@ organization: Oxford Spring School in Advanced Research Methods organization_url
 organization: Inter-university Consortium for Political and Social Research (ICPSR) organization_url: ‘https://www.icpsr.umich.edu/web/pages/sumprog/scholarships/winners-2020.html' title: Advanced Network Analysis, and Data Science and Text Analysis url: ‘https://www.icpsr.umich.edu/web/pages/sumprog/biblio/2020/' certificate_url: ‘https://www.coursera.org’ date_start: ‘2020-07-14’ date_end: ‘2020-08-20’ description: ‘The ICPSR Summer Program provides rigorous, hands-on training in statistical techniques, research methodologies, and data analysis.’
 
 organization: Summer Institute in Computational Social Science (SICSS-Helsinki) organization_url: ‘https://sicss.io/2018/helsinki/' title: Computational Social Science url: '’ certificate_url: ‘https://sicss.io/2018/helsinki/people' date_start: ‘2018-06-17’ date_end: ‘2018-06-30’ description: ‘The purpose of the Summer Institute is to bring together graduate students, postdoctoral researchers, and beginning faculty interested in computational social science. The Summer Institute is for both social scientists (broadly conceived) and data scientists (broadly conceived). Topics covered include text as data, website scraping, digital field experiments, non-probability sampling, mass collaboration, and ethics.’
+
+
+<center>
+<main style="font-size:15px"> &copy; Yunus Emre Tapan, `r format(Sys.time(), '%Y')`. Made with `r fa("r-project", fill = "#0D7680")` Distill Package. </main>
+</center>

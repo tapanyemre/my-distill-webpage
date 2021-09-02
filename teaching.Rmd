@@ -1,6 +1,7 @@
 ---
 title: "Teaching Experience"
-site: distill::distill_website
+twitter:
+  creator: "@YEmreTapan"
 output:
   postcards::solana
 ---
