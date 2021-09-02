@@ -1039,4 +1039,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_after_body-->
 
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+<p>© Yunus Emre Tapan, 2021. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
+</div>
 <!--/radix_placeholder_navigation_after_body-->

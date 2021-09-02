@@ -82,9 +82,6 @@ I am a graduate of SICSS-Helsinki in 2018 and ICPSR Summer Program in 2020 as on
 library(fontawesome)
 ```
 
-<center>
-<main style="font-size:15px"> &copy; Yunus Emre Tapan, `r format(Sys.time(), '%Y')`. Made with `r fa("r-project", fill = "#0D7680")` Distill Package. </main>
-</center>
 
 
 ```{r, include=FALSE, results='asis'}
