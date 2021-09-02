@@ -2133,7 +2133,7 @@ d-appendix {
 <style type="text/css">
 /* base variables */
   
-  /* Edit the CSS properties in this file to create a custom
+/* Edit the CSS properties in this file to create a custom
 Distill theme. Only edit values in the right column
 for each row; values shown are the CSS defaults.
 To return any property to the default,
@@ -2141,9 +2141,9 @@ you may set its value to: unset
 All rows must end with a semi-colon.                      */
   
   
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-  @import url('https://fonts.googleapis.com/css2?family=Amiri');
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+@import url('https://fonts.googleapis.com/css2?family=Amiri');
 @import url('https://fonts.googleapis.com/css2?family=Bitter');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
@@ -2171,7 +2171,7 @@ html {
 }
 
 /*-- ARTICLE METADATA --*/
-  d-byline {
+d-byline {
     --heading-size:    0.6rem;
     --heading-color:   rgba(0, 0, 0, 0.5);
     --body-size:       0.8rem;
@@ -2179,13 +2179,13 @@ html {
   }
 
 /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
+.d-contents {
     --heading-size:    18px;
     --contents-size:   14px;
   }
 
 /*-- ARTICLE APPENDIX --*/
-  d-appendix {
+d-appendix {
     --heading-size:    15px;
     --heading-color:   rgba(0, 0, 0, 0.65);
     --text-size:       0.8em;
@@ -2193,15 +2193,15 @@ html {
   }
 
 /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
+/* These properties only apply to Distill sites and blogs  */
   
-  .distill-site-header {
-    --title-size:       20px;                      /* edited */
-      --text-color:       #FFFFFF;                   /* edited */
-      --text-size:        20px;                      /* edited */
-      --hover-color:      #383838;                   /* edited */
-      --bkgd-color:       rgb(249, 83, 85);          /* edited */
-  }
+.distill-site-header {
+  --title-size:       20px;                      /* edited */
+  --text-color:       #FFFFFF;                   /* edited */
+  --text-size:        20px;                      /* edited */
+  --hover-color:      #383838;                   /* edited */
+  --bkgd-color:       rgb(249, 83, 85);          /* edited */
+}
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
@@ -2211,9 +2211,9 @@ html {
 }
 
 /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
+/* Add any additional CSS rules below                      */
   
-  .posts-list .metadata .publishedDate {
+.posts-list .metadata .publishedDate {
     color: rgb(249, 83, 85);
   }
 
@@ -2239,18 +2239,52 @@ ul > li::marker {
 
 /*-- Change links on postcard --*/
   
-  .btn-outline-dark {
+.btn-outline-dark {
     background-color: transparent;
     color: rgba(249, 83, 85, 1.0);
     border: 1px solid;
     border-color: rgba(249, 83, 85, 1.0);
-  }
+}
 
 .btn-outline-dark:hover {
   background-color: rgba(249, 83, 85, 1.0);
   border-color: rgba(249, 83, 85, 1.0);
   color: white;
-}</style>
+}
+
+d-article div.sourceCode pre {
+  overflow-x: scroll !important;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-left: 0;
+}
+
+.distill-site-nav {
+  color: #ffffff;
+  font-weight: 400;
+  background: #24292e;
+  border-bottom: 2px solid #DECF40;
+  -webkit-box-shadow: 1px 1px 18px #4d4d4d;
+  -moz-box-shadow: 1px 1px 18px #4d4d4d;
+  box-shadow: 1px 1px 18px #4d4d4d;
+}
+
+.distill-site-nav a:hover {
+  color: white;
+  font-weight: 700;
+}
+
+d-title {
+  background: #575757;
+  color: white;
+}
+
+.distill-site-footer {
+  border-top: 2px solid #DECF40;
+  border-bottom: 0;
+}
+</style>
 <style type="text/css">
 /* base style */
 

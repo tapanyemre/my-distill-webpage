@@ -711,7 +711,7 @@
           <style type="text/css">
           /* base variables */
             
-            /* Edit the CSS properties in this file to create a custom
+          /* Edit the CSS properties in this file to create a custom
           Distill theme. Only edit values in the right column
           for each row; values shown are the CSS defaults.
           To return any property to the default,
@@ -719,9 +719,9 @@
           All rows must end with a semi-colon.                      */
             
             
-            /* Optional: embed custom fonts here with `@import`          */
-            /* This must remain at the top of this file.                 */
-            @import url('https://fonts.googleapis.com/css2?family=Amiri');
+          /* Optional: embed custom fonts here with `@import`          */
+          /* This must remain at the top of this file.                 */
+          @import url('https://fonts.googleapis.com/css2?family=Amiri');
           @import url('https://fonts.googleapis.com/css2?family=Bitter');
           @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
           @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
@@ -749,7 +749,7 @@
           }
 
           /*-- ARTICLE METADATA --*/
-            d-byline {
+          d-byline {
               --heading-size:    0.6rem;
               --heading-color:   rgba(0, 0, 0, 0.5);
               --body-size:       0.8rem;
@@ -757,13 +757,13 @@
             }
 
           /*-- ARTICLE TABLE OF CONTENTS --*/
-            .d-contents {
+          .d-contents {
               --heading-size:    18px;
               --contents-size:   14px;
             }
 
           /*-- ARTICLE APPENDIX --*/
-            d-appendix {
+          d-appendix {
               --heading-size:    15px;
               --heading-color:   rgba(0, 0, 0, 0.65);
               --text-size:       0.8em;
@@ -771,15 +771,15 @@
             }
 
           /*-- WEBSITE HEADER + FOOTER --*/
-            /* These properties only apply to Distill sites and blogs  */
+          /* These properties only apply to Distill sites and blogs  */
             
-            .distill-site-header {
-              --title-size:       20px;                      /* edited */
-                --text-color:       #FFFFFF;                   /* edited */
-                --text-size:        20px;                      /* edited */
-                --hover-color:      #383838;                   /* edited */
-                --bkgd-color:       rgb(249, 83, 85);          /* edited */
-            }
+          .distill-site-header {
+            --title-size:       20px;                      /* edited */
+            --text-color:       #FFFFFF;                   /* edited */
+            --text-size:        20px;                      /* edited */
+            --hover-color:      #383838;                   /* edited */
+            --bkgd-color:       rgb(249, 83, 85);          /* edited */
+          }
 
           .distill-site-footer {
             --text-color:       rgba(255, 255, 255, 0.8);
@@ -789,9 +789,9 @@
           }
 
           /*-- Additional custom styles --*/
-            /* Add any additional CSS rules below                      */
+          /* Add any additional CSS rules below                      */
             
-            .posts-list .metadata .publishedDate {
+          .posts-list .metadata .publishedDate {
               color: rgb(249, 83, 85);
             }
 
@@ -817,18 +817,52 @@
 
           /*-- Change links on postcard --*/
             
-            .btn-outline-dark {
+          .btn-outline-dark {
               background-color: transparent;
               color: rgba(249, 83, 85, 1.0);
               border: 1px solid;
               border-color: rgba(249, 83, 85, 1.0);
-            }
+          }
 
           .btn-outline-dark:hover {
             background-color: rgba(249, 83, 85, 1.0);
             border-color: rgba(249, 83, 85, 1.0);
             color: white;
-          }</style>
+          }
+
+          d-article div.sourceCode pre {
+            overflow-x: scroll !important;
+            font-size: 85%;
+            line-height: 1.45;
+            background-color: #f6f8fa;
+            border-left: 0;
+          }
+
+          .distill-site-nav {
+            color: #ffffff;
+            font-weight: 400;
+            background: #24292e;
+            border-bottom: 2px solid #DECF40;
+            -webkit-box-shadow: 1px 1px 18px #4d4d4d;
+            -moz-box-shadow: 1px 1px 18px #4d4d4d;
+            box-shadow: 1px 1px 18px #4d4d4d;
+          }
+
+          .distill-site-nav a:hover {
+            color: white;
+            font-weight: 700;
+          }
+
+          d-title {
+            background: #575757;
+            color: white;
+          }
+
+          .distill-site-footer {
+            border-top: 2px solid #DECF40;
+            border-bottom: 0;
+          }
+          </style>
           <style type="text/css">
           /* base style */
 
@@ -1140,9 +1174,11 @@
             </div>
             <div id="teaching-experience" class="section level2">
             <h2>Teaching Experience</h2>
-            <p>Computational Thinking, Fall 2020 An Undergraduate Course at Kadir Has University</p>
-            <p>Summer Institute in Computational Social Science (SICSS), Istanbul Partner event of the SICSS at Princeton University, June 17-30 2019</p>
-            <p>Summer Institute in Computational Social Science (SICSS), Istanbul Partner virtual event of the SICSS at Duke University, May 31- June 27 2020</p>
+            <ul>
+            <li><p>Computational Thinking, Fall 2020 An Undergraduate Course at Kadir Has University</p></li>
+            <li><p>Summer Institute in Computational Social Science (SICSS), Istanbul Partner event of the SICSS at Princeton University, June 17-30 2019</p></li>
+            <li><p>Summer Institute in Computational Social Science (SICSS), Istanbul Partner virtual event of the SICSS at Duke University, May 31- June 27 2020</p></li>
+            </ul>
             </div>
             <div id="method-schools" class="section level2">
             <h2>Method Schools</h2>
@@ -1151,8 +1187,18 @@
             <p>Machine Learning</p>
             <p>date_start: ‘2021-04-19’ date_end: ‘2021-04-23’</p>
             <p>description: ‘Computational techniques broadly referred to as “machine learning” (ML) are attracting increasing attention in the social sciences. This course will introduce students to the fundamental theories and concepts used across ML techniques (e.g maximum likelihood estimation, classification, overfitting, and cross-validation), and how to apply various popular ML techniques (e.g. LASSO, random forests, bayesian additive regression trees, and neural networks). This course will also pay particular attention to inferential problems regarding how best to use ML methods in social science contexts and discuss practical issues (e.g. computational power and parallelisation). Students on this course are required to be familiar with probability and statistics (OLS, hypothesis testing, logistic regression) and to have basic knowledge of the R programming language.’</p>
-            <p>organization: Inter-university Consortium for Political and Social Research (ICPSR) organization_url: ‘https://www.icpsr.umich.edu/web/pages/sumprog/scholarships/winners-2020.html’ title: Advanced Network Analysis, and Data Science and Text Analysis url: ‘https://www.icpsr.umich.edu/web/pages/sumprog/biblio/2020/’ certificate_url: ‘https://www.coursera.org’ date_start: ‘2020-07-14’ date_end: ‘2020-08-20’ description: ‘The ICPSR Summer Program provides rigorous, hands-on training in statistical techniques, research methodologies, and data analysis.’</p>
-            <p>organization: Summer Institute in Computational Social Science (SICSS-Helsinki) organization_url: ‘https://sicss.io/2018/helsinki/’ title: Computational Social Science url: ’’ certificate_url: ‘https://sicss.io/2018/helsinki/people’ date_start: ‘2018-06-17’ date_end: ‘2018-06-30’ description: ‘The purpose of the Summer Institute is to bring together graduate students, postdoctoral researchers, and beginning faculty interested in computational social science. The Summer Institute is for both social scientists (broadly conceived) and data scientists (broadly conceived). Topics covered include text as data, website scraping, digital field experiments, non-probability sampling, mass collaboration, and ethics.’</p>
+            </div>
+            <div id="inter-university-consortium-for-political-and-social-research-icpsr" class="section level3">
+            <h3><a href="https://www.icpsr.umich.edu/web/pages/sumprog/scholarships/winners-2020.html">Inter-university Consortium for Political and Social Research (ICPSR)</a></h3>
+            <p>Advanced Network Analysis, and Data Science and Text Analysis</p>
+            <p>date_start: ‘2020-07-14’ date_end: ‘2020-08-20’ description: ‘</p>
+            <p>The ICPSR Summer Program provides rigorous, hands-on training in statistical techniques, research methodologies, and data analysis.’</p>
+            </div>
+            <div id="summer-institute-in-computational-social-science-sicss-helsinki" class="section level3">
+            <h3><a href="https://sicss.io/2018/helsinki/">Summer Institute in Computational Social Science (SICSS-Helsinki)</a></h3>
+            <p>Computational Social Science</p>
+            <p>date_start: ‘2018-06-17’ date_end: ‘2018-06-30’</p>
+            <p>description: ‘The purpose of the Summer Institute is to bring together graduate students, postdoctoral researchers, and beginning faculty interested in computational social science. The Summer Institute is for both social scientists (broadly conceived) and data scientists (broadly conceived). Topics covered include text as data, website scraping, digital field experiments, non-probability sampling, mass collaboration, and ethics.’</p>
             <hr />
             <center>
             <main style="font-size:15px">
@@ -1266,9 +1312,11 @@
               </div>
               <div id="teaching-experience" class="section level2">
               <h2>Teaching Experience</h2>
-              <p>Computational Thinking, Fall 2020 An Undergraduate Course at Kadir Has University</p>
-              <p>Summer Institute in Computational Social Science (SICSS), Istanbul Partner event of the SICSS at Princeton University, June 17-30 2019</p>
-              <p>Summer Institute in Computational Social Science (SICSS), Istanbul Partner virtual event of the SICSS at Duke University, May 31- June 27 2020</p>
+              <ul>
+              <li><p>Computational Thinking, Fall 2020 An Undergraduate Course at Kadir Has University</p></li>
+              <li><p>Summer Institute in Computational Social Science (SICSS), Istanbul Partner event of the SICSS at Princeton University, June 17-30 2019</p></li>
+              <li><p>Summer Institute in Computational Social Science (SICSS), Istanbul Partner virtual event of the SICSS at Duke University, May 31- June 27 2020</p></li>
+              </ul>
               </div>
               <div id="method-schools" class="section level2">
               <h2>Method Schools</h2>
@@ -1277,8 +1325,18 @@
               <p>Machine Learning</p>
               <p>date_start: ‘2021-04-19’ date_end: ‘2021-04-23’</p>
               <p>description: ‘Computational techniques broadly referred to as “machine learning” (ML) are attracting increasing attention in the social sciences. This course will introduce students to the fundamental theories and concepts used across ML techniques (e.g maximum likelihood estimation, classification, overfitting, and cross-validation), and how to apply various popular ML techniques (e.g. LASSO, random forests, bayesian additive regression trees, and neural networks). This course will also pay particular attention to inferential problems regarding how best to use ML methods in social science contexts and discuss practical issues (e.g. computational power and parallelisation). Students on this course are required to be familiar with probability and statistics (OLS, hypothesis testing, logistic regression) and to have basic knowledge of the R programming language.’</p>
-              <p>organization: Inter-university Consortium for Political and Social Research (ICPSR) organization_url: ‘https://www.icpsr.umich.edu/web/pages/sumprog/scholarships/winners-2020.html’ title: Advanced Network Analysis, and Data Science and Text Analysis url: ‘https://www.icpsr.umich.edu/web/pages/sumprog/biblio/2020/’ certificate_url: ‘https://www.coursera.org’ date_start: ‘2020-07-14’ date_end: ‘2020-08-20’ description: ‘The ICPSR Summer Program provides rigorous, hands-on training in statistical techniques, research methodologies, and data analysis.’</p>
-              <p>organization: Summer Institute in Computational Social Science (SICSS-Helsinki) organization_url: ‘https://sicss.io/2018/helsinki/’ title: Computational Social Science url: ’’ certificate_url: ‘https://sicss.io/2018/helsinki/people’ date_start: ‘2018-06-17’ date_end: ‘2018-06-30’ description: ‘The purpose of the Summer Institute is to bring together graduate students, postdoctoral researchers, and beginning faculty interested in computational social science. The Summer Institute is for both social scientists (broadly conceived) and data scientists (broadly conceived). Topics covered include text as data, website scraping, digital field experiments, non-probability sampling, mass collaboration, and ethics.’</p>
+              </div>
+              <div id="inter-university-consortium-for-political-and-social-research-icpsr" class="section level3">
+              <h3><a href="https://www.icpsr.umich.edu/web/pages/sumprog/scholarships/winners-2020.html">Inter-university Consortium for Political and Social Research (ICPSR)</a></h3>
+              <p>Advanced Network Analysis, and Data Science and Text Analysis</p>
+              <p>date_start: ‘2020-07-14’ date_end: ‘2020-08-20’ description: ‘</p>
+              <p>The ICPSR Summer Program provides rigorous, hands-on training in statistical techniques, research methodologies, and data analysis.’</p>
+              </div>
+              <div id="summer-institute-in-computational-social-science-sicss-helsinki" class="section level3">
+              <h3><a href="https://sicss.io/2018/helsinki/">Summer Institute in Computational Social Science (SICSS-Helsinki)</a></h3>
+              <p>Computational Social Science</p>
+              <p>date_start: ‘2018-06-17’ date_end: ‘2018-06-30’</p>
+              <p>description: ‘The purpose of the Summer Institute is to bring together graduate students, postdoctoral researchers, and beginning faculty interested in computational social science. The Summer Institute is for both social scientists (broadly conceived) and data scientists (broadly conceived). Topics covered include text as data, website scraping, digital field experiments, non-probability sampling, mass collaboration, and ethics.’</p>
               <hr />
               <center>
               <main style="font-size:15px">
